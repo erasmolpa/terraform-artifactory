@@ -1,0 +1,9 @@
+repositories:
+  - key: "my-remote-repo-1"
+    package_type: "npm"
+    url: "https://registry.npmjs.org/"
+    repo_layout_ref: "npm-default"
+  - key: "my-remote-repo-2"
+    package_type: "pypi"
+    url: "https://pypi.org/simple"
+    repo_layout_ref: "pypi-default"

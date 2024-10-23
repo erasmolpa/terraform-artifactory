@@ -1,0 +1,7 @@
+groups:
+  - name: "admins"
+    description: "Administrators group"
+    admin_privileges: true
+  - name: "developers"
+    description: "Developers group"
+    admin_privileges: false

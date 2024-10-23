@@ -1,0 +1,9 @@
+users:
+  - name: "admin_user"
+    email: "admin@company.com"
+    groups: ["admins"]
+    admin: true
+  - name: "developer_user"
+    email: "developer@company.com"
+    groups: ["developers"]
+    admin: false

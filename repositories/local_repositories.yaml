@@ -1,0 +1,9 @@
+repositories:
+  - key: "my-local-repo-1"
+    package_type: "maven"
+    description: "A local Maven repository"
+    repo_layout_ref: "maven-2-default"
+  - key: "my-local-repo-2"
+    package_type: "docker"
+    description: "A local Docker repository"
+    repo_layout_ref: "docker-default"

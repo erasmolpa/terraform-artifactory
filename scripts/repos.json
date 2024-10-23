@@ -1,0 +1,18 @@
+{
+    "repositories": [
+      {
+        "key": "my-local-repo-1",
+        "packageType": "maven",
+        "description": "A local Maven repository",
+        "repoLayoutRef": "maven-2-default"
+      },
+      {
+        "key": "my-remote-repo-1",
+        "packageType": "npm",
+        "description": "A remote NPM repository",
+        "repoLayoutRef": "npm-default",
+        "url": "https://registry.npmjs.org"
+      }
+    ]
+  }
+  

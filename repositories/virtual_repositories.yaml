@@ -1,0 +1,11 @@
+repositories:
+  - key: "my-virtual-repo-1"
+    package_type: "maven"
+    repositories:
+      - "my-local-repo-1"
+      - "my-remote-repo-1"
+  - key: "my-virtual-repo-2"
+    package_type: "npm"
+    repositories:
+      - "my-local-repo-2"
+      - "my-remote-repo-2"
